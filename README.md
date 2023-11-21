@@ -1,7 +1,7 @@
 # CLI Param Concat 
 Command Line Parameter Management Concatenation Tool
 
-<!-- TOC -->
+[中文文档](./README.zh-CN.md)
 
 **Background**
 
