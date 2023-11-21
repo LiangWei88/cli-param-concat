@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+const concatParams = require('../lib/index');
+
+// 获取命令行参数
+const [,, command, paramsFile] = process.argv;
+
+// 验证参数
+if (!command || !paramsFile) {
+  console.error('Usage: param-concat 命令名 参数集文件');
+  process.exit(1);
+}
+
+// 执行参数拼接
+concatParams(command, paramsFile);

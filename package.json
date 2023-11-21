@@ -1,0 +1,15 @@
+{
+    "name": "cli-param-concat",
+    "version": "1.0.0",
+    "description": "Concatenate parameters for a command",
+    "main": "lib/index.js",
+    "bin": {
+        "clipc": "./bin/param-concat"
+    },
+    "keywords": [
+        "concat",
+        "parameters"
+    ],
+    "author": "Liang Wei",
+    "license": "MIT"
+}
