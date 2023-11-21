@@ -1,15 +1,25 @@
 {
     "name": "cli-param-concat",
     "version": "1.0.0",
-    "description": "Concatenate parameters for a command",
+    "description": "CLI Param Concat simplifies command-line tasks by automating the concatenation of parameters from a file into custom commands.",
     "main": "lib/index.js",
     "bin": {
-        "clipc": "./bin/param-concat"
+      "clipc": "./bin/param-concat"
     },
-    "keywords": [
-        "concat",
-        "parameters"
-    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/LiangWei88/cli-param-concat.git"
+    },
+    "keywords": ["cli", "command-line", "parameter", "concatenation", "concat", "params"],
     "author": "Liang Wei",
-    "license": "MIT"
-}
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/LiangWei88/cli-param-concat/issues"
+    },
+    "homepage": "https://github.com/LiangWei88/cli-param-concat#readme",
+    "engines": {
+      "node": ">=14.0.0"
+    }
+  }
+
+  
